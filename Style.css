@@ -6,6 +6,8 @@
 
 body {
   background-color: #040814;
+
+  font-family: 'Poppins', sans-serif;
 }
 
 .center {
@@ -14,7 +16,7 @@ body {
 }
 
 .fundo-header {
-  background-image: url('./fundo-header.jpg');
+  background-image: url('/img/Fundo-header.jpg');
   background-size: 100vw;
   background-repeat: no-repeat;
 
@@ -307,6 +309,8 @@ footer p {
   
   .dispositivos {
     max-width: 300px;
+
+    margin-left: 1.5em;
   }
 }
 
