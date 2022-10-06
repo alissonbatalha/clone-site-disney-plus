@@ -8,6 +8,8 @@ body {
   background-color: #040814;
 
   font-family: 'Poppins', sans-serif;
+
+  width: 100vw;
 }
 
 .center {
@@ -65,9 +67,17 @@ header h1 {
   margin-bottom: 3px;
 }
 
+@keyframes seta {
+  100% {
+    transform: translateY(30px);
+  }
+}
+
 #seta {
   font-size: 1.5em;
   margin: 80px auto;
+
+  animation: seta .7s ease-out .5s infinite alternate;
 }
 
 .tv {
@@ -281,12 +291,22 @@ footer p {
   }
   
   .parte1,
-  .parte2,
   .parte3 {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+
+  .parte2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+  }
   
+  .conteudo2 {
+    width: 40%;
+}
+
   .conteudo {
     grid-template-rows: 1fr 1fr;
     
