@@ -41,6 +41,7 @@ header h1 {
   border: 1px solid white;
   border-radius: 4px;
   margin: 10px 10px 0 0;
+  cursor: pointer;
 }
 
 .assine img {
@@ -169,6 +170,12 @@ footer ul {
   margin-top: 30px;
   list-style-position: inside;
   columns: 2;
+  list-style-type: none;
+}
+
+option {
+  background-color: #000;
+  color: #fff;
 }
 
 footer ul li {
@@ -257,6 +264,7 @@ footer p {
   margin: 20px auto;
   width: 90vw;
   max-width: 500px;
+  cursor: pointer;
 }
 
 .dados p {
